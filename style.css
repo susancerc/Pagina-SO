@@ -1,0 +1,139 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style:none;
+  }
+
+  body{
+    background-color:  #E6C6DA;
+    font-family: 'Poppin', sans-serif;
+  }
+  .container{
+    max-width: 1100px;
+    margin: 0 auto;
+  }
+  .menu{
+    position: absolute;
+    top:10px;
+    left:0;
+    right:0;
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+    z-index: 1000;
+  }
+  .menu .logo{
+    font-weight: 800;
+    font-size:25px;
+    color: #9D5080 ;
+  }
+
+  .menu .navbar ul li{
+    position:relative;
+    float: left;
+  }
+
+  
+  .menu .navbar ul li a{
+    font-size: 10px;
+    padding: 20px ;
+    color: #98738A;
+    display: block;
+  }
+
+  .menu .navbar ul li a:hover{
+    color: #afa0a9;
+  }
+  #menu{
+    display:none;
+  }
+
+  .menu-icono{
+    width:25px;
+  }
+
+  .menu label{
+    cursor: pointer;
+    display:none;
+  }
+
+  .header-content{
+    display:flex;
+    align-items: center;
+    margin-top: 150px;
+  }
+
+  .header-1{
+    width:50%;
+
+  }
+
+  .header-1 h1{
+    font-size:55px;
+    font-weight: 800;
+    color:#9D5080;
+    margin-bottom:15px;
+  }
+  .header-1 p{
+    font-size:18px;
+    color:#434864;
+
+  }
+
+  .btn-1{
+    display: inline-block;
+    padding: 13px 25px;
+    background-color: #53444E;
+    border-radius:25px ;
+    color: #FFFFFF;
+    margin-top: 45px;
+  }
+
+  .header-2{
+    display: flex;
+    flex-direction: column;
+    align-items:flex-end;
+    width:50%;
+  }
+
+  .info{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-color:#FFFFFF;
+    padding: 20px;
+    margin-bottom:25px;
+    width:350px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.2);
+    border-left:5px solid #e97bbf;
+  }
+
+  .info h3{
+    font-size:16px;
+    margin-right:10px;
+    color:#434864;
+  }
+
+  .info p{
+    font-size:14px;
+    color:#434864;
+  }
+
+  .users{
+    display:flex;
+    justify-content: space-between;
+    padding: 150px 0px;
+  }
+
+  .user{
+    background-color: #FFFFFF;
+    text-align:center;
+    padding: 25px 0px;
+    width: 200px;
+    
+  }
